@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.log
+data/
+checkpoints/
+*.h5ad
+*.h5
+*.pt
+*.tif
+*.zip

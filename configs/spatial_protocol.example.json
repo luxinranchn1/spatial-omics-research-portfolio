@@ -1,0 +1,19 @@
+{
+  "scope": "Display of existing experiments; not a new frozen scientific run",
+  "split_unit": "patient",
+  "spatial_buffer_um": 500,
+  "annotation_budgets": [50, 100, 200],
+  "ROI_positions_per_patient": 5,
+  "preprocessing_fit_scope": "source training data only",
+  "frozen_encoders": ["UNI2", "Phikon-v2", "Kaiko-L14"],
+  "TRIPLEX_neural_training_seeds": [2021, 2022, 2023],
+  "cohorts": [
+    {"cancer": "IDC", "target_patients": 6, "genes": 90},
+    {"cancer": "LUAD", "target_patients": 14, "genes": 22},
+    {"cancer": "RCC", "target_patients": 5, "genes": 169}
+  ],
+  "same_domain_reference_is_ceiling": false,
+  "absolute_PCC_pooled_across_gene_panels": false,
+  "Ridge_training": "deterministic",
+  "interval_guarantees_require_exchangeability": true
+}

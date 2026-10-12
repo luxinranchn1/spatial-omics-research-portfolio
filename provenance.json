@@ -1,0 +1,73 @@
+{
+  "exported_on": "2026-10-12",
+  "scope": "resume_showcase_of_completed_research",
+  "new_scientific_experiments": false,
+  "records": [
+    {
+      "export": "results/model_annotation_2x2.csv",
+      "source": "research\\review\\opus_progress_review_20261009\\factorial_2x2_summary.csv",
+      "source_sha256": "3842f555743a027ac4cd8b2afb35406dce7acefb5b623d7d87e4b2742c6ee24e",
+      "export_sha256": "f7b1810a74177d1fcdccdb2fe7e0f5e703a996dcfc2c421e4b2955aff270db56",
+      "rows": 2
+    },
+    {
+      "export": "results/encoder_annotation.csv",
+      "source": "research\\review\\opus_progress_review_20261009\\encoder_annotation_total_table.csv",
+      "source_sha256": "353f0cd11d0d9ade1d257fba78125892a857f6a5599d7e2f078028886383e8e8",
+      "export_sha256": "353f0cd11d0d9ade1d257fba78125892a857f6a5599d7e2f078028886383e8e8",
+      "rows": 81
+    },
+    {
+      "export": "results/selection_strategies.csv",
+      "source": "research\\review\\opus_progress_review_20261009\\standard_strategy_total_table.csv",
+      "source_sha256": "77e8d0ce296dadcff893dc857de4400dc7bc14358fa1ce237889e41af6ad1eaf",
+      "export_sha256": "77e8d0ce296dadcff893dc857de4400dc7bc14358fa1ce237889e41af6ad1eaf",
+      "rows": 77
+    },
+    {
+      "export": "results/cancer_screening_flow.csv",
+      "source": "research\\review\\opus_progress_review_20261009\\six_cancer_flow.csv",
+      "source_sha256": "7e426a12a5c9d7eca382cf19da1c87ad13b8454f7dc8ce0bd7ad2df6cb0d035e",
+      "export_sha256": "7e426a12a5c9d7eca382cf19da1c87ad13b8454f7dc8ce0bd7ad2df6cb0d035e",
+      "rows": 6
+    },
+    {
+      "export": "results/independent_roi_layout.csv",
+      "source": "research\\review\\opus_progress_review_20261009\\PAAD_original_confirmation_summary.csv",
+      "source_sha256": "c85fc80e73436eb627d2d3c3c36c69633f34ea74b24c691368e863ac779c636f",
+      "export_sha256": "c85fc80e73436eb627d2d3c3c36c69633f34ea74b24c691368e863ac779c636f",
+      "rows": 36
+    },
+    {
+      "export": "results/citeseq_classification.csv",
+      "source": "research\\data_audit\\batch47\\summary.json",
+      "source_sha256": "9db8b56e9385a6cf8345768d6779462c34c3d021fd432c40a924863a9b1748ae",
+      "export_sha256": "7e3475caacc50ea8e32e7e8ea7fbdeb73ede0ca4c49656fcf20e96a561f3eed2",
+      "rows": 10
+    },
+    {
+      "export": "assets/annotation_efficiency.png",
+      "source": "research\\data_audit\\benchmark_screen\\stp_multicancer_extension\\stage3\\figures\\annotation_efficiency.png",
+      "source_sha256": "2b274ed91917021439812ed54ac632d319c2f00f2f3b326f61a8396b74abb8e1",
+      "export_sha256": "2b274ed91917021439812ed54ac632d319c2f00f2f3b326f61a8396b74abb8e1"
+    },
+    {
+      "export": "src/interval_math.py",
+      "source": "scripts/stp_reliability_controls_math.py",
+      "source_sha256": "8a40e66d1e4a8beaca3247d2d8cfbb36c386549e982a1ecbc70835c1a0cbfa3a",
+      "portability": "Exact copy of this project's established formulas and pooled-Ridge algebra; not a novel statistical method."
+    },
+    {
+      "export": "src/citeseq_losses.py",
+      "source": "scripts/batch46_scmmt.py",
+      "source_sha256": "4239a2cede43538dfca57548e407be4b99e34a96e086066ad77930b228353fd9",
+      "portability": "classification_loss extracted; leaf_parent passed as an argument. No upstream scMMT model code redistributed."
+    },
+    {
+      "export": "src/torch_ridge.py",
+      "source": "scripts/stp_multicancer_stage1.py",
+      "source_sha256": "832e3c2a315301acc51b5bbf172109382d1ba3decbeae068873a4dcdcb256ade",
+      "portability": "Exact model_fit and predict function extraction; original external orchestration omitted."
+    }
+  ]
+}

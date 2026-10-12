@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-12",
+  "publication_scope": "public_showcase_only",
+  "private_information_scan": "passed",
+  "local_links": "passed",
+  "syntax": "passed",
+  "portable_synthetic_demo": "passed",
+  "original_interval_math_selftest": "passed",
+  "real_result_table_reader": "passed",
+  "new_scientific_results_generated": false
+}

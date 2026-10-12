@@ -1,0 +1,7 @@
+cancer,cohort,target_patients,prepared,screen_passing,evaluated,disposition,reason
+IDC,Biomarkers to GSE311609 (added independent public cohort),17,6,6,6,included,11 technical NA retained; source-section patient independence unknown
+RCC,HEST CCRCC to WUSTL RCC,10,10,5,5,included,5 below fixed screen PCC0.30; source/target tissue confound
+LUAD,NCCHE Visium to Xenium,16,14,14,14,included,2 geometry technical NA; all target patient identities excluded from source
+PRAD,External MGB PRAD,,,,0,public_external_unavailable,Not released; internal CV is not external validation
+GBM,Released external HEST GBM,3,,,0,below_pre_model_patient_count,"Fewer than5 independent patients; not tested, not a low-PCC result"
+PAAD,Released external HEST PAAD,3,,,0,below_pre_model_patient_count,"Fewer than5 independent patients; not tested, not a low-PCC result"
